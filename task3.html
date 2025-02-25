@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//         Task 3: Discount CalculatorScenario: Calculate the discount based on thetotal purchase amount.
+// “No discount” if the amount is less than $50.
+// “5% discount” if the amount is between $50 and $100.
+// “10% discount” if the amount is between $101 and $200.
+// “15% discount” if the amount is above $200.
+// Prompt the user to enter the total purchase amount.Display the discount percentage.
+let user=prompt("enter the total purchase amount");
+console.log(user)
+if (user<=50){
+console.log("No discount")
+}else if(user>=50 && user<=100){
+console.log("5% discount")
+} else if(user>=101 && user<=200){
+console.log("10% discount")
+} else if(user>200){
+console.log("15% discount")
+}else{
+console.log("Enter the correct amount")
+}
+
+    </script>
+</body>
+</html>

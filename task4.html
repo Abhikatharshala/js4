@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//         Task 4: Restaurant MenuScenario: You are developing a restaurant menu system that provides the price of a dish basedon the dish name.
+// Assume a variable dish holds the name of the dish
+//  as a string (e.g.,  "Biriyani", "shawarma", "Fried rice", "veg pula").
+// Print the price.
+let dish=prompt("enter the dish name").toLowerCase();
+console.log(dish)
+switch(dish){
+    case "briyani":
+        console.log("the price of your dish is 100");
+        break;
+        case "shawarma":
+        console.log("the price of your dish is 150");
+        break;
+        case "fried rice":
+        console.log("the price of your dish is 60");
+        break;
+        case "veg pula":
+        console.log("the price of your dish is 300");
+        break;
+        default:
+        console.log("invalid dish")
+}
+
+    </script>
+</body>
+</html>
